@@ -1,0 +1,50 @@
+/* 
+  Localizable.strings
+  Express
+
+  Created by rango on 14/11/13.
+  Copyright (c) 2014年 vsuntek. All rights reserved.
+*/
+"Number" = "Only alphabet and number";
+"Number least" = "Number,at least 5";
+
+"Checking" = "Checking...";
+"Loading"  = "Loading...";
+"Network Ok" = "OK";
+"Network error" = "Network error";
+"No results"  = "No inquiry results";
+"Done" = "Done";
+
+"Favorites" = "★Favorites";
+"Carrier"   = "Choose Carrier";
+"Request timed out" = "Request timed out";
+
+"Canceled" = "Canceled";
+"Saved"   = "Saved";
+"Successed" = "Success";
+"Send failed" = "Send failed";
+
+"Update" = "Update";
+"Version"= "This version is the latest version";
+"Latest version" = "There is a new version , if you want to update";
+
+"Send Message" = "Send Message";
+"Send Email"   = "Send Email";
+"Results" = "Results";
+
+"Checking" = "Checking...";
+
+"Copy" = "Copy success";
+"Modified" = "Modified success";
+"Note" = "Add Note";
+
+"Message"= "Message";
+"Delete One" = "Are you sure delete Selected?";
+"Delete All" = "Are you sure delete all?";
+
+"Signed" = "icon_signed_en";
+"No Signed" = "icon_no_signi_en";
+"OK"     = "OK";
+"Cancel" = "Cancel";
+
+"Delete" = "Delete";

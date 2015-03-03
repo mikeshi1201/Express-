@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SectionHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gtd-F5-vJQ" userLabel="headerLabel">
+                    <rect key="frame" x="20" y="10" width="86" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="86" id="3yk-xE-IDC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2CW-SU-nsd" userLabel="up">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="1"/>
+                    <color key="backgroundColor" red="0.84215250180000001" green="0.83305433080000002" blue="0.85752152420000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="0i7-Rt-O6v"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.49999999999999961" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="U8D-mo-HXw" userLabel="down">
+                    <rect key="frame" x="0.0" y="39" width="320" height="1"/>
+                    <color key="backgroundColor" red="0.84215250180000001" green="0.83305433080000002" blue="0.85752152420000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="t6V-Be-bAM"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="2CW-SU-nsd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="8Ed-nW-SHG"/>
+                <constraint firstAttribute="bottom" secondItem="U8D-mo-HXw" secondAttribute="bottom" id="De5-V3-CJT"/>
+                <constraint firstAttribute="trailing" secondItem="2CW-SU-nsd" secondAttribute="trailing" id="FCO-nu-6Ug"/>
+                <constraint firstItem="2CW-SU-nsd" firstAttribute="trailing" secondItem="U8D-mo-HXw" secondAttribute="trailing" id="UDd-ZJ-ba8"/>
+                <constraint firstItem="U8D-mo-HXw" firstAttribute="top" secondItem="Gtd-F5-vJQ" secondAttribute="bottom" constant="7" id="UTf-Am-epa"/>
+                <constraint firstItem="2CW-SU-nsd" firstAttribute="leading" secondItem="U8D-mo-HXw" secondAttribute="leading" id="Xeg-Rj-i2u"/>
+                <constraint firstItem="2CW-SU-nsd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="aoM-yq-dK1"/>
+                <constraint firstItem="Gtd-F5-vJQ" firstAttribute="top" secondItem="2CW-SU-nsd" secondAttribute="bottom" constant="9" id="zA7-TE-ebr"/>
+                <constraint firstItem="Gtd-F5-vJQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="zui-TB-fh7"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="headerLabel" destination="Gtd-F5-vJQ" id="rf3-1S-hMj"/>
+                <outlet property="imageViewDown" destination="U8D-mo-HXw" id="Jyx-Ch-fF1"/>
+                <outlet property="imageviewUp" destination="2CW-SU-nsd" id="UNa-Ey-EN5"/>
+            </connections>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

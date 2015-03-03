@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C6D6B656197CBAB600DB59C9"
-               BuildableName = "Express.app"
+               BuildableName = "&#x5feb;&#x9012;&#x5c0f;&#x79d8;.app"
                BlueprintName = "Express"
                ReferencedContainer = "container:Express.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C6D6B656197CBAB600DB59C9"
-            BuildableName = "Express.app"
+            BuildableName = "&#x5feb;&#x9012;&#x5c0f;&#x79d8;.app"
             BlueprintName = "Express"
             ReferencedContainer = "container:Express.xcodeproj">
          </BuildableReference>
@@ -62,12 +62,17 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C6D6B656197CBAB600DB59C9"
-            BuildableName = "Express.app"
+            BuildableName = "&#x5feb;&#x9012;&#x5c0f;&#x79d8;.app"
             BlueprintName = "Express"
             ReferencedContainer = "container:Express.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
+         <AdditionalOption
+            key = "NSZombieEnabled"
+            value = "YES"
+            isEnabled = "YES">
+         </AdditionalOption>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
@@ -80,7 +85,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C6D6B656197CBAB600DB59C9"
-            BuildableName = "Express.app"
+            BuildableName = "&#x5feb;&#x9012;&#x5c0f;&#x79d8;.app"
             BlueprintName = "Express"
             ReferencedContainer = "container:Express.xcodeproj">
          </BuildableReference>

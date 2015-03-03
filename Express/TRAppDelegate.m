@@ -7,15 +7,56 @@
 //
 
 #import "TRAppDelegate.h"
-
 @implementation TRAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+ 
+    [[UIApplication  sharedApplication]setStatusBarStyle:UIStatusBarStyleLightContent];
+
+    //NavigationBar 背景颜色
+    [[UINavigationBar appearance] setBarTintColor:UICOLOR(20, 160, 230, 1)];
+    
+    //NavigationBar 文字属性
+    [[UINavigationBar appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],NSForegroundColorAttributeName,[UIFont fontWithName:@"HelveticaNeue-CondensedBlack" size:18],NSFontAttributeName,nil]];
+
+    //NavigationBar 按钮的颜色
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    
+    
+    UIStoryboard  *storyBoard = [UIStoryboard  storyboardWithName:@"Main" bundle:nil];
+    
+    if (![[NSUserDefaults standardUserDefaults] boolForKey:EverLaunched]) {
+        
+        
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:EverLaunched];
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:FirstLaunch];
+        
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:kMusicState];
+        
+        UIViewController *pageController = [storyBoard instantiateViewControllerWithIdentifier:@"PageViewController"];
+        
+        self.window.rootViewController = pageController;
+        
+        
+        
+    } else {
+        
+        [[NSUserDefaults standardUserDefaults] setBool:NO forKey:FirstLaunch];
+        
+        UIViewController *tabBarController =  [storyBoard instantiateViewControllerWithIdentifier:@"myTabBarController"];
+        
+        self.window.rootViewController = tabBarController;
+        
+        
+        
+    }
+    
+    
     return YES;
 }
-							
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

@@ -1,0 +1,105 @@
+
+/* Class = "IBUINavigationItem"; title = "扫描二维码"; ObjectID = "1Ms-cg-j1C"; */
+"1Ms-cg-j1C.title" = "Scan Code";
+
+/* Class = "IBUILabel"; text = "帮助"; ObjectID = "1tt-AC-9Cu"; */
+"1tt-AC-9Cu.text" = "Help";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "3aF-0F-wP9"; */
+"3aF-0F-wP9.text" = "Label";
+
+/* Class = "IBUIBarButtonItem"; title = "全部标记"; ObjectID = "4jb-gz-wQF"; */
+"4jb-gz-wQF.title" = "All marks";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "7rw-5F-sEY"; */
+"7rw-5F-sEY.text" = "Label";
+
+/* Class = "IBUILabel"; text = "建议反馈"; ObjectID = "AaB-nz-bL0"; */
+"AaB-nz-bL0.text" = "Advice";
+
+/* Class = "IBUIButton"; normalTitle = "查询"; ObjectID = "Ahb-gN-Xda"; */
+"Ahb-gN-Xda.normalTitle" = "Track";
+
+/* Class = "IBUILabel"; text = "关于小秘"; ObjectID = "Awc-ke-6NQ"; */
+"Awc-ke-6NQ.text" = "About";
+
+/* Class = "IBUINavigationItem"; title = "快递列表"; ObjectID = "C68-C0-Dz8"; */
+"C68-C0-Dz8.title" = "Carrier List";
+
+/* Class = "IBUILabel"; text = "lanel"; ObjectID = "C9e-zV-Ya6"; */
+"C9e-zV-Ya6.text" = "lanel";
+
+/* Class = "IBUIBarButtonItem"; title = "删除"; ObjectID = "GHT-6T-X1k"; */
+"GHT-6T-X1k.title" = "Delete";
+
+/* Class = "IBUITableViewController"; title = "main"; ObjectID = "JUp-Vr-DHZ"; */
+"JUp-Vr-DHZ.title" = "main";
+
+/* Class = "IBUIBarButtonItem"; title = "取消标记"; ObjectID = "KHK-ar-wIG"; */
+"KHK-ar-wIG.title" = "Cancel Mark";
+
+/* Class = "IBUILabel"; text = "音效"; ObjectID = "LVC-gP-yzd"; */
+"LVC-gP-yzd.text" = "Sound";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "Lu7-hU-iI6"; */
+"Lu7-hU-iI6.text" = "Label";
+
+/* Class = "IBUINavigationItem"; title = "历史记录"; ObjectID = "MAP-iS-0PR"; */
+"MAP-iS-0PR.title" = "History";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "Muu-Ls-8gq"; */
+"Muu-Ls-8gq.text" = "Label";
+
+/* Class = "IBUILabel"; text = "时间:"; ObjectID = "OqW-pb-CRB"; */
+"OqW-pb-CRB.text" = "Time:";
+
+/* Class = "IBUILabel"; text = "备注:"; ObjectID = "QKP-Jb-wPU"; */
+"QKP-Jb-wPU.text" = "Note:";
+
+/* Class = "IBUILabel"; text = "单号:"; ObjectID = "aAM-8R-HZv"; */
+"aAM-8R-HZv.text" = "NO.:";
+
+/* Class = "IBUILabel"; text = "一款专业的查询软件"; ObjectID = "aET-1y-7Q5"; */
+"aET-1y-7Q5.text" = "Professional software";
+
+/* Class = "IBUINavigationItem"; title = "查询结果"; ObjectID = "eQy-eQ-l4Q"; */
+"eQy-eQ-l4Q.title" = "Result";
+
+/* Class = "IBUINavigationItem"; title = "关于小秘"; ObjectID = "f7K-33-pEV"; */
+"f7K-33-pEV.title" = "About";
+
+/* Class = "IBUILabel"; text = "快递小秘"; ObjectID = "ieX-sg-JYU"; */
+"ieX-sg-JYU.text" = "快递小秘";
+
+/* Class = "IBUIBarButtonItem"; title = "编辑"; ObjectID = "iro-qR-5YU"; */
+"iro-qR-5YU.title" = "Edit";
+
+/* Class = "IBUILabel"; text = "公司:"; ObjectID = "j2A-c6-A4J"; */
+"j2A-c6-A4J.text" = "Com:";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "jcc-1D-wTj"; */
+"jcc-1D-wTj.text" = "Label";
+
+/* Class = "IBUILabel"; text = "version 1.0.4 build rango"; ObjectID = "mC2-Ht-90S"; */
+"mC2-Ht-90S.text" = "version 1.0.4 build rango";
+
+/* Class = "IBUITextField"; placeholder = "请选择快递公司"; ObjectID = "mEf-QQ-NgY"; */
+"mEf-QQ-NgY.placeholder" = "Choose Carrier";
+
+/* Class = "IBUITextField"; placeholder = "请输入快递单号"; ObjectID = "mFE-2D-Xds"; */
+"mFE-2D-Xds.placeholder" = "Type Tracking NO.";
+
+/* Class = "IBUIBarButtonItem"; title = "取消"; ObjectID = "oew-qN-ci0"; */
+"oew-qN-ci0.title" = "Cancel";
+
+/* Class = "IBUILabel"; text = "评价打分"; ObjectID = "ogK-XB-eDh"; */
+"ogK-XB-eDh.text" = "Appraise";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "pw2-pB-ib7"; */
+"pw2-pB-ib7.text" = "Label";
+
+/* Class = "IBUILabel"; text = "检查更新"; ObjectID = "uxc-DV-oTe"; */
+"uxc-DV-oTe.text" = "Update";
+
+/* Class = "IBUINavigationItem"; title = "更多"; ObjectID = "vbc-3P-cBy"; */
+"vbc-3P-cBy.title" = "More";

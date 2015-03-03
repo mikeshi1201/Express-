@@ -1,13 +1,13 @@
 //
-//  TRViewController.h
+//  PageViewController.h
 //  Express
 //
-//  Created by rango on 14-7-21.
+//  Created by rango on 14/10/20.
 //  Copyright (c) 2014年 vsuntek. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface TRViewController : UIViewController
+@interface PageViewController : UIViewController
 
 @end

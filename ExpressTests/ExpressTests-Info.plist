@@ -3,20 +3,35 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>en</string>
+	<string>zh_CN</string>
 	<key>CFBundleExecutable</key>
-	<string>${EXECUTABLE_NAME}</string>
+	<string>express</string>
 	<key>CFBundleIdentifier</key>
-	<string>www.vsuntek.com.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>com.rango.express</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundlePackageType</key>
-	<string>BNDL</string>
+	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>CFBundleDisplayName</key>
+	<string>快递小秘</string>
+	<key>UIStatusBarHidden</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>Icon_80.png</string>
+		<string>Icon_120.png</string>
+		<string>Icon_180.png</string>
+		<string>Icon_Small@2x.png</string>
+	</array>
 </dict>
 </plist>
